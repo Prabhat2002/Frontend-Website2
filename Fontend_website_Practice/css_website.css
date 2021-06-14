@@ -1,0 +1,143 @@
+   
+        body
+        {
+         margin: 0;
+         padding: 0;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         background: linear-gradient(120deg,rgb(17, 32, 238),#add);
+        }
+        
+        nav
+        {
+         position:sticky;
+         width:100%;
+         line-height:50px;
+         border: 1px solid linear-gradient(#fdec,#12da,#67cc);
+         border-radius: 2px;
+         background-color: linear-gradient(rgba(18, 42, 223, 0.239),rgba(155, 38, 218, 0.719),rgba(77, 168, 15, 0.067));
+        }
+        
+        nav ul
+        {
+         float:left;
+         margin:0;
+         padding-right:25px;
+        }
+        
+        nav  li
+        {
+         display:inline-block;
+        }
+
+        header
+        {
+         background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)),url(7.JPG);
+         background-size: cover;
+         background-position: center;
+         height: 100vh;
+        }
+
+        nav ul li a 
+        {
+         text-decoration:none;
+         /* color:rgb(221, 221, 221); */
+         /* font-size: 20px; */
+        }
+
+        .button 
+        {
+            border: 1px solid  rgb(255, 3, 192);
+            color:rgb(255, 3, 192) ;
+            /* border-style: inherit; */
+            /* background: rgb(212, 0, 0); */
+            border-radius:10px;
+            font-weight: bolder;
+            font-size: 23px;
+            cursor: pointer;
+            background: transparent;
+            padding:8px;
+            /* margin:3px; */
+        }
+
+        #main 
+        {
+            font-size: 35px;
+            color: rgb(218, 7, 7);
+            font-weight: bold;
+            padding-left: 0px;
+            margin: 0px;
+        }
+  
+        .sub
+        {
+            color: rgb(252, 252, 253);
+            font-size: 20px;
+            padding-left:25px;
+        }
+
+        .btn
+        {
+            margin-left: 120px;
+        } 
+      
+        select 
+        {
+            /* margin: 3px; */
+            border: 2px solid  rgb(255, 3, 192);
+            margin-left: 60px;
+            /* border: none; */
+            padding: 5px;
+            border-radius: 8px;
+            font-size: 20px;
+            color:rgb(255, 3, 192);
+            background: transparent;
+        }
+
+        option
+        {
+            background: transparent;  
+        }
+
+        #bg
+        {
+            padding-top: 40vh;
+            /* padding-left: 45vh; */
+            
+            font-size: 42px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(241, 205, 0);
+        }
+        
+        .discription
+        {
+         width: 80%;
+         margin: 60px auto;
+        }
+
+        #the
+        {
+            padding-top: 10vh;           
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(48, 0, 70);
+        }
+
+
+
+        .BUT 
+        {
+            border: 2px solid black;
+            border-radius: 25px;
+            text-decoration: none;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: red;
+            color: rgb(245, 239, 239);
+        }
+
+        p 
+        {
+            font-size: 20px;
+        }
